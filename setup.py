@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from distutils.core import setup
+from setuptools import setup
 
 
 with open('README.rst') as f:
@@ -16,4 +16,5 @@ setup(
     url='https://github.com/fireforge/multisarge',
     license='MIT',
     py_modules=['multisarge'],
+    install_requires=['sarge'],
 )
