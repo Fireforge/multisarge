@@ -35,8 +35,7 @@ if __name__ == '__main__':
         # These are the required
         command_gen=cowsay_cmd,
         param_matrix=PARAM_MATRIX,
-        # If true, will enable use a dummy command for FHWA_VehicleTracker
-        # and sleep to simulate long proces times
+        # If true, will sleep to simulate long process times
         debug=False,
         # number of workers that the task pool will use
         num_processes=4,
